@@ -1,0 +1,14 @@
+name: DBExample
+version: ${project.version}
+main: com.sudo.dbexample.DBExample
+api-version: 1.17
+prefix: DBExample
+authors: [ Jorge ]
+description: Database Example
+commands:
+  getcount:
+    description: gets count for given player
+  add:
+    description: add one to players count
+  setcount:
+    description: set player count to given value
